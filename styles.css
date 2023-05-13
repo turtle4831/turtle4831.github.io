@@ -143,12 +143,7 @@ margin-left: 20%;
 @media only screen and (min-width: 760px){
 #bg2 {width:30%;}
 }
-/* tablet res */
-@media only screen and (min-width: 650px) {
-#bg2{width: 70%;}
 
-
-}
 /* phone rez */
 @media only screen and (min-width: 600px) {
 #bg2{width:90%;}
