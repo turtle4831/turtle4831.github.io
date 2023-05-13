@@ -141,21 +141,7 @@ margin-left: 20%;
 }
 /* desktop res */
 @media only screen and (min-width: 760px){
-.body {width:100%;}
 #bg2 {width:30%;}
-/* .container-2{width:;} */
-/* #h3c2{width:;} */
-.box2-0c{margin-left: 1%;}
-#me{width: 90%; height: 50px;}
-#box2-0ct{transform: translate(10%,20%);}
-/* .box2-oc2{width:;} */
-#projects{width: 90%;}
-#projects.clicked{width: 150px; height: 100px;}
-#box2-0ct2{transform:translate(10%,20%);}
-.box2-0c3{margin-left: 1%; margin-top: 6%;}
-#contact{width: 90%; height: 50px;}
-#box2-0ct3{transform: translate(10%,20%)}
-
 }
 /* tablet res */
 @media only screen and (min-width: 650px) {
