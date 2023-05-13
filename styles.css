@@ -139,11 +139,6 @@ margin-left: 20%;
   margin-left: 40%;
   border-radius: 30px;
 }
-/* desktop res */
-@media only screen and (min-width: 760px){
-#bg2 {width:30%;}
-}
-
 /* phone rez */
 @media only screen and (min-width: 600px) {
 #bg2{width:90%;}
