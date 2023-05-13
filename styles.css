@@ -140,7 +140,7 @@ margin-left: 20%;
   border-radius: 30px;
 }
 /* desktop res */
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 760px){
 .body {width:100%;}
 #bg2 {width:30%;}
 /* .container-2{width:;} */
@@ -158,7 +158,7 @@ margin-left: 20%;
 
 }
 /* tablet res */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 650px) {
 #bg2{width: 70%;}
 
 
