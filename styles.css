@@ -1,161 +1,98 @@
-body{
-  height: 100vh;
-}
-.body {
-   
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: #4158D0;
-    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
-    background-size: 100%;
-    height: 120vh;
-    width: 100%;
-    position: relative;
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        
+        <div class="body">
+            <div id="bg2">
+        <script src="script.js"></script>
     
-  }
+      
 
-
-.container{
-   width: 100%;
-    position: fixed;
-
+     
+     <br>
+    <div class="container-2">
+     <h1>
+        My resume!
+     </h1>
+     <h3 id="h3c2">
+        Click on titles to reveal info!
+     </h3>
+    </div>
+    <hr>
     
-  
-}
+    <!-- box 2.0 me start -->
+<div class="box2-0c">
+    <div id="me"  onclick="MeButton()">
+        About Me!
+    </div>
+    <div id="box2-0ct">
+    <ul>
+        <li>
+          15 years old 
+        </li>
+        <li>
+            crestview, florida
+        </li>
+        <li>
+         4.7 highschool gpa
+        </li>
+        <li>
+            good at coding (c#, c++, html, css, python,php, learning react and rust )
+        </li>
+    </ul>
+    </div>
+</div>
+<br>
+<!-- box 2.0 me end  -->
+<div class="box2-0c2">
+    <div id="projects" onclick="ProjectButton()">
+      my projects!
+    </div>
+    <div id="box2-0ct2">
+      <ul>
+        <li>
+      rev edu kit 2.0 robotics challenge
+        </li>
+        <p>was challenged to build a robot that can pick and place down cones by itself and controlled by a human</p>
+        <li>
+        coded for dog bytes ftc robotics
+        </li>
+      </ul>
+    </div>
+</div>
+
+<div class="box2-0c3">
+    <div id="contact" onclick="ContactButton()">
+      My Contacts!
+    </div>
+    <div id="box2-0ct3">
+      <ul>
+        <li>
+      email: jakethrun@gmail.com
+        </li>
+        <li>
+        discord: turtlezhu#0017
+        </li>
+      </ul>
+    </div>
+</div>
+    
 
 
-.nav{
-   color: rgb(0, 0, 0) ;
-   margin-left: 20%;
-   border: black;
-   border-radius: 30px;
-  text-shadow: black;
-  
+
+</div>
    
-  
-}
-.nav:hover{
- color: rgb(250, 209, 216) ; 
-}
 
-.container-2{
-margin-left: 20%;
-}
-#h3c2{
-  margin-left: -7%;
-}
+        
 
- /* box 2.0 start */
- .box2-0c {
-  margin-left: 1%;
-  
- }
-
- #me{
-  width: 90%;
-  height: 50px;
-  background-color:#304194;
-  transition: all 0.3s ease;
-  border-radius: 30px;
-  text-align: center;
-  font-size: 2em;
-  color: white;
-  text-shadow: black;
-  text-shadow: 16px;
- }
-
- #me.clicked{
-  width: 37%;
-  height: 19%;
-
- }
-#box2-0ct{
-  display: none;
-  transform: translate(10%,20%)
-}
- /* end */
- /* start */
-.box2-0c2 {
-  margin-left: 1%;
-  
- }
-
- #projects{
-  width: 90%;
-  height: 50px;
-  background-color:#b748af ;
-  transition: all 0.3s ease;
-  border-radius: 30px;
-  text-align: center;
-  font-size: 2em;
-  color: white;
-  text-shadow: black;
-  text-shadow: 16px;
- }
-
- #projects.clicked{
-  width: 150px;
-  height: 100px;
-
- }
-#box2-0ct2{
-  display: none;
-  transform: translate(6%,20%);
-  
-}
-/* end */
-/* start */
-.box2-0c3 {
-  margin-left: 1%;
-  margin-top: 6%;
- }
-
- #contact{
-  width: 90%;
-  height: 50px;
-  background-color:#FFCC70 ;
-  transition: all 0.3s ease;
-  border-radius: 30px;
-  text-align: center;
-  font-size: 2em;
-  color: white;
-  text-shadow: black;
-  text-shadow: 16px;
- }
-
- #contact.clicked{
-  width: 150px;
-  height: 100px;
-
- }
-#box2-0ct3{
-  display: none;
-  transform: translate(10%,20%)
-}
-/* end */
-/* background 2 */
-#bg2{
-  opacity: 0.5;
-  background-color: white;
-  background-size: 30px ;
-  height: 100%;
-  width: 30%;
-  margin-left: 40%;
-  border-radius: 30px;
-  
-}
-
-
-/* For 480 Resolution */  
-@media only screen   
-and (min-device-width : 320px)   
-and (max-device-width : 480px)  
-{
-  #bg2{width:100%; opacity: 0.4; position: relative; margin-left: 0%;}
-}
-/* For 640 Resolution */  
-@media only screen   
-and (min-device-width : 360px)   
-and (max-device-width : 640px)  
-{ 
-  #bg2{width:100%; opacity: 0.4; position: relative; margin-left: 0%;}
-}
+</div>
+    </body>
+</html>
